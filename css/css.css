@@ -36,9 +36,85 @@
 .main_navigation__item.color a
 {
     color: tomato;
+    background-color: rgb(223, 223, 223);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .main_navigation__item a:hover
 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: rgb(255, 38, 0);
     background-color: rgb(223, 223, 223);
+}
+.about_me
+{
+    text-transform: uppercase;
+    float: left;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about_me h1
+{
+    margin: 25px 0;
+}
+.about_me p 
+{
+    color: #9B9A9B;
+}
+.about_me h3 
+{
+    color: #213949;
+}
+.about_me h1 
+{
+    font-size: 35px;
+}
+aside img 
+{
+    float: right;
+    margin-top: 50px;
+    overflow: auto;
+}
+.background_color
+{
+    background-color: rgb(223, 223, 223);
+    overflow: auto;
+}
+.about_me button 
+{
+    display: block;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: #1048fd;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.about_me button:active
+{
+    background-color: rgb(0, 0, 224);
+}
+.about_me button:hover 
+{
+    box-shadow: 0 0 5px rgb(0, 0, 226);
+}
+.icons
+{
+    margin: 35px 0;
+}
+.icons a i
+{
+    font-size: 30px;
+    color: #7e7e7e;
+}
+.icons a
+{
+    text-decoration: none;
+    margin: 0 10px;  
+}
+.icons a:hover i
+{
+    box-shadow: 0 4px 1px;
 }
