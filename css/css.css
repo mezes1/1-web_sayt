@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo
+{
+    float: left;
+    margin-top: 10px;
+}
+.main_navigation__item
+{
+    display: inline;
+    overflow: auto;
+}
+.main_navigation__items
+{
+    margin-left: 300px;
+    padding-top: 20px;
+}
+.clearfix
+{
+    clear: both;
+}
+.main_navigation__item a
+{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px 40px;
+}
+.main_navigation__item.color a
+{
+    color: tomato;
+}
+.main_navigation__item a:hover
+{
+    color: rgb(255, 38, 0);
+    background-color: rgb(223, 223, 223);
+}
